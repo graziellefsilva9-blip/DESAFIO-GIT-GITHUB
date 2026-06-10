@@ -1,10 +1,29 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #a8169c;
 }
 h1 {
     color: navy;
     }
+    p {
+        color:white (189, 180, )
+    }
     
-   
+   h1, h3 {
+    text-align: center;
+   }
+   label, input{
+    display: block;
+    margin:  10px 0px;
+   } 
+   #div-form{
+    background-color: #a963ac;
+    width: 500px;
+   min-height: 400px;
+    margin:  20px auto;
+    padding: 20px;
+   }
+   #div-dados{
+    
+   }
