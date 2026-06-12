@@ -3,9 +3,9 @@ const formDados = document.querySelector('#formulario-pessoa')
 const divResultado =  document.querySelector('#div-dados')
 
 //CAPTURANDO O EVETO SUBMIT DO FORMULARIO
-formDados.addEventListener ('submit', (evl)=> {
-    evt.prevenDefault()
-
+ formDados.addEventListener ('submit', (evt)=>{
+    evt.preventDefault()
+    
     const objformDados = new FormData(formDados)
 
     let nome = objformDados.get('nome')
@@ -14,9 +14,9 @@ formDados.addEventListener ('submit', (evl)=> {
     let situacaoIdade = ''
 
     if (idade >= 18){
-        situacaoIdade = '${nome}, você é maior de idade'
+        situacaoIdade = `${nome}, você é maior de idade`
     }else{
-        situacaoIdade = '${nome}, você é menor de idade'
+        situacaoIdade = `${nome}, você é menor de idade`
     }
 
     divResultado.innerHTML = situacaoIdade

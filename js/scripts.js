@@ -18,9 +18,11 @@ console.log(num)
 console.log(num2)
 console.log(num3)
 if (true){
-    let num4 =420
+    let num4 = 420
+    
+    console.log(num4)
 }
-console.log(num4)
+
 
 //num3 = 12
 
@@ -45,7 +47,7 @@ console.log(`A soma dos números $ num3`)
  */
 console.log('SOMA DE VARIAVEIS', num + num2)
 console.log('SUBTRAÇÃO DAS VARIAVEIS', num3 -num)
-console.log('Multiplicação', num5 * 2)
+console.log('Multiplicação', num * 2)
 console.log('DIVISÃO DE VALORES', num2 / 5)
 console.log('RESTO DA DIVISÃO', num2 % 2)
 console.log('RESTO DA DIVISÃO ${num3 % 3}')
