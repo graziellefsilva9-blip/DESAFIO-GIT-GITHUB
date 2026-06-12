@@ -1,13 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     background-color: #a8169c;
 }
 h1 {
-    color: navy;
+    color: rgb(226, 226, 231);
     }
     p {
-        color:white (189, 180, )
+        color:white (241, 248, 248);
     }
     
    h1, h3 {
@@ -18,9 +17,9 @@ h1 {
     margin:  10px 0px;
    } 
    #div-form{
-    background-color: #a963ac;
+    background-color: rgb(230, 215, 250);
     width: 400px;
-   min-height: 350px;
+    min-height: 350px;
     margin:  20px auto;
     padding: 20px;
    }
