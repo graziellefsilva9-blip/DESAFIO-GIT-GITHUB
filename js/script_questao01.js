@@ -8,18 +8,13 @@ const divResultado =  document.querySelector('#div-dados')
     
     const objformDados = new FormData(formDados)
 
-    let nome = objformDados.get('nome')
-    let idade = objformDados.get('idade')
+   let n1 = parseFloat(objformDados.get('num1'))
+   let n2 = parseFloat(objformDados.get('num2'))
+   let n3 = parseFloat(objformDados.get('num3'))
 
-    let situacaoIdade = ''
+   let media = (n1 +n2 +n3) /3
 
-    if (idade >= 18){
-        situacaoIdade = `${nome}, você é maior de idade`
-    }else{
-        situacaoIdade = `${nome}, você é menor de idade`
-    }
-
-    divResultado.innerHTML = situacaoIdade
+    divResultado.innerHTML = `a media dos numeros digitados é: ${media.toFixed(2).replace('.',',')}`
 
 
 })
